@@ -69,7 +69,7 @@ public final class Sorting {
 	}
 
 	private static void quicksort(int[] a, int left, int right) {
-		if (left + CUTOFF <= right) {
+		if (left + a.length/2 <= right) {
 			int pivot = median3(a, left, right);
 
 			int i = left, j = right - 1;
