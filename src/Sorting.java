@@ -40,7 +40,7 @@ public final class Sorting {
 		quicksort(a, 0, a.length - 1);
 	}
 
-	private static final int CUTOFF = 10;
+	private static final int CUTOFF = 5;
 
 	public static final void swapReferences(Object[] a, int index1, int index2) {
 		Object tmp = a[index1];
